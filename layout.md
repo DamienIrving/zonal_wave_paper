@@ -1,1 +1,2 @@
 introduction.tex
+methodology.tex
