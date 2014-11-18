@@ -2,3 +2,4 @@ introduction.tex
 data.tex
 methodology_existing_metrics.tex
 methodology_our_metric.tex
+figures/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax.png
