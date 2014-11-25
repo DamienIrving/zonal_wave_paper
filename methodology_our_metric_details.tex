@@ -1,8 +1,11 @@
 \subsection{A new metric: details}
 
-To define and calculate a metric of zonal planetary wave activity, the Hilbert Transform was applied to the 500 hPa meridional wind at each latitude. The geopotential height (or its zonal anomaly) would have been an alternative option, however many other authors think the meridional wind is great \citep[e.g.][]{Hope2014}. EXPLAIN WHY. The precise atmospheric level is somewhat unimportant since planetary waves are equivalent barotropic, so 500 hPa simply represents a mid-to-upper tropospheric level that is below the tropopause in all seasons and at all latitudes of interest. Wavenumbers 1-9 were retained in the Transform. At 500 hPa this is effectively all wavenumbers, however the resulting wave envelope is slightly smoother if wavenumbers greater than 9 are left out.
+To define and calculate a metric of zonal planetary wave activity, a spatial map of the wave envelope was obtained for each timestep by performing a Hilbert Transform (which retained wavenumbers 1-9) on the 500 hPa meridional wind values along each latitude circle. The latitudinal dimension was then eliminated by calculating the meridional maximum over the range 40$^{\circ}$-70$^{\circ}$S, and finally the longitudinal dimension was eliminated by calculating the median.
 
-In order to collapse the spatial wave envelope map at each timestep, the latitudinal dimension was first eliminated by calculating the meridional maximum over the range 40$^{\circ}$-70$^{\circ}$S, and then the longitudinal dimension by calculating the median.
+
+The geopotential height (or its zonal anomaly) would have been an alternative option, however many other authors think the meridional wind is great \citep[e.g.]{Hope2014}. EXPLAIN WHY. The precise atmospheric level is somewhat unimportant since planetary waves are equivalent barotropic, so 500 hPa simply represents a mid-to-upper tropospheric level that is below the tropopause in all seasons and at all latitudes of interest. Wavenumbers 1-9 were retained in the Transform. At 500 hPa this is effectively all wavenumbers, however the resulting wave envelope is slightly smoother if wavenumbers greater than 9 are left out.
+
+
 
 In order to be consistent with most of the existing literature, the majority of the analysis focuses on monthly timescale data. Instead of using monthly data, we used a 30-day running mean. I THINK I HAVE SOME NOTES ON WHY THIS IS GOOD.
 
