@@ -7,6 +7,5 @@ methodology_our_metric_concept21.tex
 figures/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29.png
 methodology_our_metric_details.tex
 results_climatology.tex
-results_zw31.tex
 results_zw3.tex
 figures/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax.png
