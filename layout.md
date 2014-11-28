@@ -2,7 +2,7 @@ introduction.tex
 data.tex
 methodology_existing_metrics.tex
 methodology_our_metric_concept1.tex
-figures/hilbert-va_ERAInterim_500hPa_030day-runmean_native-55S_1985-05-21/hilbert-va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-20.png
+figures/hilbert-va_ERAInterim_500hPa_030day-runmean_native-55S_1985-05-21/hilbert_zw3_w19_va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-22_2006-07-29.png
 methodology_our_metric_concept21.tex
 figures/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29.png
 methodology_our_metric_calculation.tex
