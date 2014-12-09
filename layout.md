@@ -8,7 +8,6 @@ figures/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-
 methodology_our_metric_calculation.tex
 results_climatology.tex
 figures/envva-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean_native-zonal-anom/envva-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean_native-zonal-anom.png
-figures/env_amp_median-monthly-totals_zw3-w19-va-stats-threshold75pct_ERAInterim_500hPa_030day-runmean_native-mermax-55S/env_amp_median-monthly-totals_zw3-w19-va-stats-threshold75pct_ERAInterim_500hPa_030day-runmean_native-mermax-55S.png
 figures/seasvals_zw3_ampmedian90pct-w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax/seasvals_zw3_ampmedian90pct-w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax.png
 results_zw3.tex
 figures/amp-spectra-va_ERAInterim_500hPa_daily-1990-2009_native-55S/amp-spectra-va_ERAInterim_500hPa_daily-1990-2009_native-55S.png
