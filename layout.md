@@ -8,6 +8,7 @@ figures/hilbert_zw3_w19_va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-2
 methodology_our_metric_concept21.tex
 figures/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29.png
 methodology_our_metric_calculation.tex
+methodology_analysis.tex
 results_climatology.tex
 figures/envva-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean_native-zonal-anom/envva-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean_native-zonal-anom.png
 figures/montots-seasvals_zw3_ampmedian90pct-w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax/montots-seasvals_zw3_ampmedian90pct-w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax.png
