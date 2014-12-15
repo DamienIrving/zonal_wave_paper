@@ -17,5 +17,5 @@ results_zw3_1.tex
 figures/amp-spectra-va_ERAInterim_500hPa_daily-1990-2009_native-55S/amp-spectra-va_ERAInterim_500hPa_daily-1990-2009_native-55S.png
 results_zw3_2.tex
 figures/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax.png
-results_extremes.tex
+results_extremes_temperature.tex
 figures/tas-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/tas-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native.png
