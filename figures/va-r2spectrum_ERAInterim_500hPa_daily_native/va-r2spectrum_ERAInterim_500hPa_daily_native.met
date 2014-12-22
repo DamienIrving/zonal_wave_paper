@@ -1,0 +1,9 @@
+Mon Dec 22 13:30:46 2014: /usr/local/anaconda/bin/python /home/STUDENT/dbirving/phd/visualisation/plot_timescale_spectrum.py /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/va_ERAInterim_500hPa_daily_native.nc va /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/zw3/figures/spectra/va-r2spectrum_ERAInterim_500hPa_daily_native.png --latitude -55 --runmean 1 5 10 15 30 60 90 180 365 --scaling R2 (Git hash: 399b512)
+Mon Nov 10 17:15:49 2014: ncatted -O -a level,va,o,c,500hPa va_ERAInterim_500hPa_daily_native.nc
+Mon Nov 10 16:31:05 2014: ncatted -O -a long_name,va,o,c,northward_wind va_ERAInterim_500hPa_daily_native.nc
+Thu Aug 21 10:57:46 2014: ncatted -O -a axis,time,c,c,T va_ERAInterim_500hPa_daily_native.nc
+Thu Aug 21 10:34:46 2014: ncrename -O -v v,va va_ERAInterim_500hPa_daily_native.nc
+Thu Aug 21 10:26:49 2014: cdo invertlat -sellonlatbox,0,359.9,-90,90 -daymean va_ERAInterim_500hPa_6hourly_native.nc va_ERAInterim_500hPa_daily_native.nc
+Thu Aug 21 10:14:59 2014: cdo mergetime ../download/va_ERAInterim_500hPa_6hourly-1979-1988_native_unpacked.nc ../download/va_ERAInterim_500hPa_6hourly-1989-1998_native_unpacked.nc ../download/va_ERAInterim_500hPa_6hourly-1999-2008_native_unpacked.nc ../download/va_ERAInterim_500hPa_6hourly-2009-2014_native_unpacked.nc va_ERAInterim_500hPa_6hourly_native.nc
+Thu Aug 21 10:13:35 2014: ncpdq -P upk va_ERAInterim_500hPa_6hourly-2009-2014_native.nc va_ERAInterim_500hPa_6hourly-2009-2014_native_unpacked.nc
+2014-08-20 23:16:22 GMT by grib_to_netcdf-1.13.0: grib_to_netcdf /data/data01/netcdf-atls04-20140820231025-46030-4696.target -o /data/data01/netcdf-atls04-20140820231553-46030-4697.nc 
