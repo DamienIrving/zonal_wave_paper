@@ -9,11 +9,13 @@ For those variables of interest that are an anomaly (e.g. surface air temperatur
 In order to aid visual comparisons, the "normalised" values of a given index are presented on a number of occasions throughout the paper. The normalisation process involves subtracting the mean of the data series and then dividing by the standard deviation. 
 %Wilks (p 46) call this a standardised anomaly
 
-\subsubsection{Periodograms} %From Wilks2011
-The characterisitcs of data series that have been Fourier-transformed are most often examined graphically, using a plot known as a periodogram, or Fourier line spectrum. This plot is sometimes called the power spectrum, density spectrum, or simply the spectrum, of the data series. In it's simpliest form, the plot of a spectrum consists of the squared amplitudes $C_k^2$ as a function of the frequencies $\omega_k$. Therefore, the spectrum conveys the proportion of variation in the orginal data series accounted for by oscillations at the harmonic frequencies, but does not supply information about when in time these oscillations are expressed.
+%\subsubsection{Periodograms} %From Wilks2011
+%The characterisitcs of data series that have been Fourier-transformed are most often examined graphically, using a plot known as a periodogram, or Fourier line spectrum. This plot is sometimes called the power spectrum, density spectrum, or simply the spectrum, of the data series. In it's simpliest form, the plot of a spectrum consists of the squared amplitudes $C_k^2$ as a function of the frequencies $\omega_k$. Therefore, the spectrum conveys the proportion of variation in the orginal data series accounted for by oscillations at the harmonic frequencies, but does not supply information about when in time these oscillations are expressed.
 
-The vertical axis of a plotted spectrum is sometimes numerically rescaled. Once choice is the $R^2$ statistic:
+%The vertical axis of a plotted spectrum is sometimes numerically rescaled. One choice is the $R^2$ statistic commonly computed in regression; the $R^2$ for the $k$th harmonic is simply:
 
-\begin{equation}
-R_k_2 = \frac{(n/2)C_k^2}{(n-1)s_y^2}
-\end{equation}
+%\begin{equation}
+%R_k^2 = \frac{(n/2)C_k^2}{(n-1)s_y^2}
+%\end{equation}
+
+%where $s_y^2$ is the sample variance of the data series, $n$ the length of the data series, $k$ and $C_k^2$ the squared amplitude for that harmonic. The statistic tells you the proportion of variance in the original data series accounted for by that harmonic.
