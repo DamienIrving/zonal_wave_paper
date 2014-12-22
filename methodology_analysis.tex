@@ -3,10 +3,17 @@
 \subsubsection{Composites}
 Annual and seasonal mean composites are presented throughout the paper for key variables of interest. To produce these composites, a mean spatial map was calculated across all timesteps that (a) fell within the season of interest, and (b) exceeded a specified threshold value. To determine the statistical significance of the composite mean at each grid point, two-sided, independent sample t-tests were used to calculate the probability ($p$) that the composite mean value was equal to the climatological (i.e. all timesteps) mean for that season.    
 
+For those variables of interest that are an anomaly (e.g. surface air temperature anomaly, precipitation anomaly), it should be noted that we mean daily anomaly... FIXME
+
 \subsubsection{Normalisation}
 In order to aid visual comparisons, the "normalised" values of a given index are presented on a number of occasions throughout the paper. The normalisation process involves subtracting the mean of the data series and then dividing by the standard deviation. 
 %Wilks (p 46) call this a standardised anomaly
 
-FIXME: Explain that anomalies are the daily anomaly
+\subsubsection{Periodograms} %From Wilks2011
+The characterisitcs of data series that have been Fourier-transformed are most often examined graphically, using a plot known as a periodogram, or Fourier line spectrum. This plot is sometimes called the power spectrum, density spectrum, or simply the spectrum, of the data series. In it's simpliest form, the plot of a spectrum consists of the squared amplitudes $C_k^2$ as a function of the frequencies $\omega_k$. Therefore, the spectrum conveys the proportion of variation in the orginal data series accounted for by oscillations at the harmonic frequencies, but does not supply information about when in time these oscillations are expressed.
 
-FIXME: Explain spectral density analysis
+The vertical axis of a plotted spectrum is sometimes numerically rescaled. Once choice is the $R^2$ statistic:
+
+\begin{equation}
+R_k_2 = \frac{(n/2)C_k^2}{(n-1)s_y^2}
+\end{equation}
