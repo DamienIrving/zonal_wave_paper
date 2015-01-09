@@ -26,3 +26,4 @@ figures/sic-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-
 discussion.tex
 Appendix.tex
 figures/tas-composite_zw3_ampmedian10pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/tas-composite_zw3_ampmedian10pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native.png
+figures/pr-composite_zw3_ampmedian10pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/pr-composite_zw3_ampmedian10pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native.png
