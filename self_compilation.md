@@ -3,9 +3,8 @@ do the following:
 
 1. Change the document formatting section to:
 
-\documentclass[a4paper,12pt]{article}
+```\documentclass[a4paper,12pt]{article}
 
-```
 %% Load packages %%
 
 % Line and page formating %
