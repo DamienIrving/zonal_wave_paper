@@ -13,7 +13,7 @@ In order to aid visual comparison, a number of plots throughout the paper presen
 \subsubsection{Periodograms} %From Wilks2011
 The characteristics of data series that have been Fourier-transformed are often summarized using a plot known as a periodogram or Fourier line spectrum \citep{Wilks2011}. These plots are also sometimes referred to as a power or density spectrum, and most commonly display the squared amplitudes ($C_k^2$) of the Fourier Transform as a function of their corresponding frequencies ($\omega_k$). As an alternative to the squared amplitude, we have chosen to rescale the vertical axis and instead use the $R^2$ statistic commonly computed in regression analysis. The $R^2$ for the $k$th harmonic is simply:
 
-\begin{equation}
+\begin{equation}\label{eq:variance_explained}
 R_k^2 = \frac{(n/2)C_k^2}{(n-1)s_y^2}
 \end{equation}
 
