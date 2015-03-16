@@ -13,6 +13,7 @@ results_climatology.tex
 figures/envva-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean_native-zonal-anom/envva-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean_native-zonal-anom.png
 figures/montots-seasvals_zw3_ampmedian90pct-w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax/montots-seasvals_zw3_ampmedian90pct-w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax.png
 results_variability.tex
+figures/zg-composite_zw_sam-ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/zg-composite_zw_sam-ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native.png
 results_zw3_1.tex
 figures/va-r2spectrum_ERAInterim_500hPa_daily_native/va-r2spectrum_ERAInterim_500hPa_daily_native.png
 results_zw3_2.tex
