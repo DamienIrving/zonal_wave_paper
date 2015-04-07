@@ -23,7 +23,6 @@ results_extremes_precipitation.tex
 figures/pr-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/pr-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native-sh.png
 results_extremes_seaice.tex
 figures/sic-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/sic-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native-sh.png
-figures/va-r2spectrum_ERAInterim_500hPa_daily_native/va-r2spectrum_ERAInterim_500hPa_daily_native.png
 results_zw3_2.tex
 figures/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax1/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax1.png
 results_asl_vwind.tex
