@@ -11,6 +11,7 @@ methodology_our_metric_calculation.tex
 methodology_analysis.tex
 results_climatology1.tex
 figures/sf-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean_native-zonal-anom-shextropics15/sf-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean_native-zonal-anom-shextropics15.png
+results_climatology2.tex
 results_climatology3.tex
 figures/montots-seasvals_zw3_ampmedian90pct-w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax/dates-summary_pwigt90pct_ERAInterim_500hPa_030day-runmean_native.png
 results_variability.tex
