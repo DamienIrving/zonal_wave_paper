@@ -1,3 +1,28 @@
-\subsection{Hilbert Transform and wave envelope}
+\subsection{Wave envelope}
 
-A possible solution to the shortcomings of the previous approaches borrows from recent advances in the automated identification of Rossby wave packets. In particular, \citet{Zimin2003} pioneered a method of identifying the envelope of atmospheric waveforms based on the Hilbert Transform, which is a well known technique in digital signal processing but had been scarcely applied in the atmospheric sciences. The method involves performing a Fourier Transform of the meridional wind along a selected line of latitude ($\phi$), followed by an inverse Fourier Transform just for the wavenumbers of interest. The (complex number) amplitude of the resulting waveform represents the wave envelope $E(\lambda)$, where $\lambda$ denotes longitude (e.g. Figure \ref{fig:example_hilbert}). Subsequent studies have gone on to apply this method in the context of identifying and tracking Rossby wave packets in daily timescale data \citep{Glatt2014,Souders2014a}, however its utility in identifying waveforms on longer temporal and larger spatial scales has not previously been investigated.
+A possible solution to the shortcomings of the previous approaches borrows from recent advances in the automated identification of Rossby wave packets. In particular, \citet{Zimin2003} pioneered a method of identifying the envelope of atmospheric waveforms based on the Hilbert Transform, which is a well known technique in digital signal processing but had been scarcely applied in the atmospheric sciences. In defining their algorithm, \citet{Zimin2003} consider the real function $\upsilon(x)$ on an equidistant grid along a latitude circle, which is parameterised by $x$, with $0 < x \leq 2\pi$. The grid points are located at $x = 2 \pi l / N$, where $l = 1, 2, \dotsc, N$ and $N$ is an even integer.
+\begin{itemize}
+\item Step 1: The Fourier transform of $\upsilon(x)$ is computed:
+\end{itemize}
+
+\begin{equation}\label{eq:fourier_transform}
+\hat{\upsilon}_k = \frac{1}{N}\sum_{l=1}^N \upsilon \left( \frac{2 \pi l}{N} \right) e^{-2 \pi ikl/N}, k = -\left( \frac{N}{2} + 1, \dotsc, \frac{N}{2} \right)
+\end{equation}
+
+\begin{itemize}
+\item Step 2: The inverse Fourier transform is applied to a selected band ($0 < k_{min} \leq k \leq k_{max}$) of the positive wavenumber half of the Fourier spectrum (this is the part of the process inspired by the Hilbert transform):
+\end{itemize}
+
+\begin{equation}\label{eq:inverse_transform}
+w \left( \frac{2 \pi l}{N} \right) = 2 \sum_{k=k_{min}}^{k_{max}} \hat{\upsilon}_k e^{2\pi ikl/N}
+\end{equation}
+
+\begin{itemize}
+\item Step 3: The (complex number) amplitude of the resulting waveform ($w$) represents the wave envelope ($E$):
+\end{itemize}
+
+\begin{equation}\label{eq:wave_envelope}
+E(2 \pi l / N) = | w(2 \pi l / N) |
+\end{equation}
+
+The various components of this process are illustrated in Figure \ref{fig:example_hilbert}, whereby $\upsilon(x)$ is the meridional wind along the 54.75$^{\circ}$S latitude circle for two different timesteps. 
