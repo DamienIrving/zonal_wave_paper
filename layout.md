@@ -9,7 +9,7 @@ methodology_our_metric_concept21.tex
 figures/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29.png
 methodology_our_metric_calculation.tex
 methodology_analysis.tex
-results_spatial1.tex
+results_spatial_summary.tex
 figures/sf-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean_native-zonal-anom-shextropics15/sf-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean_native-zonal-anom-shextropics15.png
 results_spatial2.tex
 figures/va-r2spectrum_ERAInterim_500hPa_daily_native-55S/va-r2spectrum_ERAInterim_500hPa_daily_native-55S.png
