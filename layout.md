@@ -11,7 +11,7 @@ methodology_our_metric_calculation.tex
 methodology_analysis.tex
 results_spatial1.tex
 figures/sf-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean_native-zonal-anom-shextropics15/sf-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean_native-zonal-anom-shextropics15.png
-results_climatology2.tex
+results_spatial2.tex
 figures/va-r2spectrum_ERAInterim_500hPa_daily_native-55S/va-r2spectrum_ERAInterim_500hPa_daily_native-55S.png
 results_zw3_2.tex
 figures/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax1/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax1.png
