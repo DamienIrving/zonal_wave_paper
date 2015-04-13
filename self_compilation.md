@@ -1,18 +1,18 @@
 ## Authorea to AMS LaTeX
 
 Export the LaTeX file and put it in the same directory as:  
-* Figures
-* Bibtex file
-* ametsoc.cls
-* ametsoc2014.bst
+* Figures  
+* Bibtex file  
+* ametsoc.cls  
+* ametsoc2014.bst  
 
 Update minor aspects of the LaTeX file:  
-* Change journal to jcli
-* Fix affiliation
-* Make sure title isn't too long on one line
-* Move bibliography reference down to end of document and and remove .bib file ending
-* Put figures in correct location and remove relative path
-* Any subsections that are the only subsection of their section need to use a *
+* Change journal to jcli  
+* Fix affiliation  
+* Make sure title isn't too long on one line  
+* Move bibliography reference down to end of document and and remove .bib file ending  
+* Put figures in correct location and remove relative path  
+* Any subsections that are the only subsection of their section need to use a *  
 
 ```
 \authors{Damien Irving\correspondingauthor{Damien Irving, 
@@ -29,15 +29,15 @@ and Ian Simmonds}
     %\email{latex@ametsoc.org}
 
 \email{irving.damien@gmail.com}
-```
+```  
 
-Common errors:
-* Can't have paragraphs in the abstract 
-* If the abstract is too long (i.e. > 250 words) it will leave a blank page under the header
-* Title can't be too long on one line (hit return to break up)
+Common errors:  
+* Can't have paragraphs in the abstract   
+* If the abstract is too long (i.e. > 250 words) it will leave a blank page under the header  
+* Title can't be too long on one line (hit return to break up)  
 
-Reference issues:
-* Must use the official abbreviations here: http://cassi.cas.org/search.jsp
-* Don't include the following fields or else they'll show up when they shouldn't:
-  * URL
-  * Issue number
+Reference issues:  
+* Must use the official abbreviations here: http://cassi.cas.org/search.jsp  
+* Don't include the following fields or else they'll show up when they shouldn't:  
+  * URL  
+  * Issue number  
