@@ -1,25 +1,18 @@
 \subsection{Wave envelope}
 
-A possible solution to the shortcomings of the previous approaches borrows from recent advances in the automated identification of Rossby wave packets. In particular, \citet{Zimin2003} pioneered a method of identifying the envelope of atmospheric waveforms based on the Hilbert transform, which is a well known technique in digital signal processing but had been scarcely applied in the atmospheric sciences. In defining their algorithm, \citet{Zimin2003} consider the real function $\upsilon(x)$ on an equidistant grid along a latitude circle, which is parameterised by $x$, with $0 < x \leq 2\pi$. The grid points are located at $x = 2 \pi l / N$, where $l = 1, 2, \dotsc, N$ and $N$ is an even integer.
-\begin{itemize}
-\item Step 1: The Fourier transform of $\upsilon(x)$ is computed:
-\end{itemize}
+A possible solution to the shortcomings of the previous approaches borrows from recent advances in the automated identification of Rossby wave packets. In particular, \citet{Zimin2003} pioneered a method of identifying the envelope of atmospheric waveforms based on the Hilbert transform, which is a well known technique in digital signal processing but had been scarcely applied in the atmospheric sciences. In defining their algorithm, \citet{Zimin2003} consider the real function $\upsilon(x)$ on an equidistant grid along a latitude circle, which is parameterised by $x$, with $0 < x \leq 2\pi$. The grid points are located at $x = 2 \pi l / N$, where $l = 1, 2, \dotsc, N$ and $N$ is an even integer. The first step of the algorithm is then to compute the Fourier transform of $\upsilon(x)$:
 
 \begin{equation}\label{eq:fourier_transform}
 \hat{\upsilon}_k = \frac{1}{N}\sum_{l=1}^N \upsilon \left( \frac{2 \pi l}{N} \right) e^{-2 \pi ikl/N},\qquad k = -\left( \frac{N}{2} + 1, \dotsc, \frac{N}{2} \right)
 \end{equation}
 
-\begin{itemize}
-\item Step 2: The inverse Fourier transform is applied to a selected band ($0 < k_{min} \leq k \leq k_{max}$) of the positive wavenumber half of the Fourier spectrum (this is the part of the process that was inspired by the Hilbert transform):
-\end{itemize}
+The inverse Fourier transform is then applied to a selected band ($0 < k_{min} \leq k \leq k_{max}$) of the positive wavenumber half of the Fourier spectrum (this is the part of the process that was inspired by the Hilbert transform):
 
 \begin{equation}\label{eq:inverse_transform}
 w \left( \frac{2 \pi l}{N} \right) = 2 \sum_{k=k_{min}}^{k_{max}} \hat{\upsilon}_k e^{2\pi ikl/N}
 \end{equation}
 
-\begin{itemize}
-\item Step 3: The (complex number) amplitude of the resulting waveform ($w$) represents the wave envelope ($E$):
-\end{itemize}
+The (complex number) amplitude of the resulting waveform ($w$) represents the wave envelope ($E$):
 
 \begin{equation}\label{eq:wave_envelope}
 E(2 \pi l / N) = | w(2 \pi l / N) |
