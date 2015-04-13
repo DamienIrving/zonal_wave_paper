@@ -38,6 +38,7 @@ Common errors:
 
 Reference issues:  
 * Must use the official abbreviations here: http://cassi.cas.org/search.jsp  
+* Journals like Geophys. Res. Lett. have an eid field instead of pages   
 * Don't include the following fields or else they'll show up when they shouldn't:  
   * URL  
   * Issue number  
