@@ -4,7 +4,6 @@ data.tex
 methodology_computation.tex
 methodology_existing_metrics.tex
 methodology_envelope.tex
-methodology_envelope_utility.tex
 methodology_pwi.tex
 methodology_analysis.tex
 results_spatial_summary.tex
