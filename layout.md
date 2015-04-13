@@ -4,7 +4,7 @@ data.tex
 methodology_computation.tex
 methodology_existing_metrics.tex
 methodology_envelope_definition.tex
-methodology_our_metric_concept21.tex
+methodology_envelope_utility.tex
 methodology_our_metric_calculation.tex
 methodology_analysis.tex
 results_spatial_summary.tex
