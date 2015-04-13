@@ -1,41 +1,43 @@
-In order to self compile this document using pdflatex, export the zip file and then
-do the following:  
+## Authorea to AMS LaTeX
 
-1. Change the document formatting section to:
+Export the LaTeX file and put it in the same directory as:  
+* Figures
+* Bibtex file
+* ametsoc.cls
+* ametsoc2014.bst
 
-```\documentclass[a4paper,12pt]{article}
-
-%% Load packages %%
-
-% Line and page formating %
-\usepackage{setspace}          % Line spacing
-\onehalfspacing 
-\usepackage{lineno}           % Line numbering
-\linenumbers
-\usepackage{enumerate}         % Numbered lists
-  
-% Figures %
-\usepackage{graphicx}          % Include graphics in document (enables \includegraphics command)
-\usepackage{ccaption}          % Figure and table captions
-%\usepackage{subfigure}         % Allows figures side by side (might be outdated and replaced with subfig)
-%\usepackage{rotating}          % Rotation of figures
-\usepackage[nomarkers,figuresonly]{endfloat}   % Move all figures to end of document
-
-% Indexing, labelling and citations %
-\usepackage{makeidx} 
-\usepackage{natbib}            % Advanced version of \cite; allows in text (\citet) and in parentheses (\citep) referencing
-\usepackage[capitalise]{cleveref}   % For referencing equations and figures    % to use noabbrev option, I'll need an updated installation of cleveref
-
-% Maths %
-\usepackage{amssymb,amsmath}
+Update minor aspects of the LaTeX file:  
+* Change journal to jcli
+* Fix affiliation
+* Make sure title isn't too long on one line
+* Move bibliography reference down to end of document and and remove .bib file ending
+* Put figures in correct location and remove relative path
+* Any subsections that are the only subsection of their section need to use a *
 
 ```
+\authors{Damien Irving\correspondingauthor{Damien Irving, 
+School of Earth Sciences, University of Melbourne, Victoria, Australia.}
+and Ian Simmonds}
 
-2. Change the referencing style (near the beginning of the file)
+%% Follow this form:
+    % \affiliation{American Meteorological Society, 
+    % Boston, Massachusetts.}
 
-```\bibliographystyle{bibliography/agu_ed} ```
+\affiliation{School of Earth Sciences, University of Melbourne, Victoria, Australia.}
 
+%% Follow this form:
+    %\email{latex@ametsoc.org}
 
-3. Change the bibliography reference (at end of file)
+\email{irving.damien@gmail.com}
+```
 
-```\bibliography{bibliography/biblio}```
+Common errors:
+* Can't have paragraphs in the abstract 
+* If the abstract is too long (i.e. > 250 words) it will leave a blank page under the header
+* Title can't be too long on one line (hit return to break up)
+
+Reference issues:
+* Must use the official abbreviations here: http://cassi.cas.org/search.jsp
+* Don't include the following fields or else they'll show up when they shouldn't:
+  * URL
+  * Issue number
