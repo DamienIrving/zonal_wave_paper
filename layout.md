@@ -7,7 +7,6 @@ methodology_envelope.tex
 methodology_pwi.tex
 methodology_analysis.tex
 results_spatial.tex
-results_spatial_zw3.tex
 results_temporal.tex
 results_variability.tex
 results_extremes_temperature.tex
