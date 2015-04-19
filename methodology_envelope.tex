@@ -6,18 +6,18 @@ A possible solution to the shortcomings of the previous approaches borrows from 
 \hat{\upsilon}_k = \frac{1}{N}\sum_{l=1}^N \upsilon \left( \frac{2 \pi l}{N} \right) e^{-2 \pi ikl/N},\qquad k = -\frac{N}{2} + 1, \dotsc, \frac{N}{2}
 \end{equation}
 
-The inverse Fourier transform is then applied to a selected band ($0 < k_{min} \leq k \leq k_{max}$) of the positive wavenumber half of the Fourier spectrum (this is the part of the process that was inspired by the Hilbert transform):
+\noindent The inverse Fourier transform is then applied to a selected band ($0 < k_{min} \leq k \leq k_{max}$) of the positive wavenumber half of the Fourier spectrum (this is the part of the process that was inspired by the Hilbert transform):
 
 \begin{equation}\label{eq:inverse_transform}
 w \left( \frac{2 \pi l}{N} \right) = 2 \sum_{k=k_{min}}^{k_{max}} \hat{\upsilon}_k e^{2\pi ikl/N}
 \end{equation}
 
-The (complex number) amplitude of the resulting waveform ($w$) represents the wave envelope ($E$):
+\noindent The (complex number) amplitude of the resulting waveform ($w$) represents the wave envelope ($E$):
 
 \begin{equation}\label{eq:wave_envelope}
 E(2 \pi l / N) = | w(2 \pi l / N) |
 \end{equation}
 
-The various components of this process are illustrated in Figure \ref{fig:example_hilbert}, whereby $\upsilon(x)$ is the meridional wind along the 54.75$^{\circ}$S latitude circle for two different timesteps. 
+\noindent The various components of this process are illustrated in Figure \ref{fig:example_hilbert}, whereby $\upsilon(x)$ is the meridional wind along the 54.75$^{\circ}$S latitude circle for two different data times. 
 
 Subsequent studies have gone on to apply the \citet{Zimin2003} algorithm in the context of identifying and tracking Rossby wave packets in daily timescale data \citep{Glatt2014,Souders2014a}, however its utility in identifying waveforms on longer temporal and larger spatial scales has not previously been investigated. In these studies, a spatial map of the wave envelope is constructed for each timestep (i.e. $E(t,\lambda,\phi)$, where $t$, $\lambda$ and $\phi$ represent time, latitude and longitude respectively). The utility of these maps is evident when considering the two maps (Figure \ref{fig:example_envelope}) that correspond to the single-latitude examples shown in Figure \ref{fig:example_hilbert}. For both 22 May 1986 and 29 July 2006, it is clear that the wavenumber three component of the Fourier transform is dominant at 54.75$^{\circ}$S (and at the other nearby latitudes not shown in Figure \ref{fig:example_hilbert}). An analysis based on single wavenumbers could lead one to believe that both timesteps are associated with a pronounced hemispheric ZW3 pattern, despite the fact that this is clearly only true for 29 July (Figure \ref{fig:example_envelope}). On 22 May the spatial scale of the anomalous flow from 200-260$^{\circ}$E approximately matches wavenumber three, but elsewhere the flow is strongly zonal. The other components of the Fourier transform on this date serve to modulate the wavenumber three component accordingly, and by using the wave envelope as opposed to a single wavenumber approach, this useful information is retained.
