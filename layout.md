@@ -14,7 +14,7 @@ results_extremes_precipitation.tex
 results_extremes_seaice.tex
 discussion.tex
 figures/hilbert_zw3_w19_va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-22_2006-07-29/Figure1.png
-figures/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29/envva-w19_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29.png
+figures/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29/Figure2.png
 figures/sf-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean_native-zonal-anom-shextropics15/sf-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean_native-zonal-anom-shextropics15.png
 figures/va-r2spectrum_ERAInterim_500hPa_daily_native-55S/va-r2spectrum_ERAInterim_500hPa_daily_native-55S.png
 figures/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax1/pwi-vs-zw3index_ERAInterim_500hPa_030day-runmean_native.png
