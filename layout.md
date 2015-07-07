@@ -16,7 +16,7 @@ discussion.tex
 figures/hilbert_zw3_w19_va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-22_2006-07-29/Figure1.png
 figures/envva-w19-va_ERAInterim_500hPa_030day-runmean_native_1986-05-22_2006-07-29/Figure2.png
 figures/sf-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean_native-zonal-anom-shextropics15/Figure3.png
-figures/va-r2spectrum_ERAInterim_500hPa_daily_native-55S/va-r2spectrum_ERAInterim_500hPa_daily_native-55S.png
+figures/va-r2spectrum_ERAInterim_500hPa_daily_native-55S/Figure4.png
 figures/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax1/pwi-vs-zw3index_ERAInterim_500hPa_030day-runmean_native.png
 figures/montots-seasvals_zw3_ampmedian90pct-w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax/dates-summary_pwigt90pct_ERAInterim_500hPa_030day-runmean_native.png
 figures/zg-composite_zw_sam-ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/sf-composite_samgt75pct-samlt25pct-pwigt90pct-overlay_ERAInterim_500hPa_030day-runmean_native-zonal-anom-shextropics15.png
