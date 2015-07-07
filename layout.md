@@ -21,5 +21,5 @@ figures/ampmedian-vs-zw3index_zw3_w19_env-va_ERAInterim_500hPa_030day-runmean_na
 figures/montots-seasvals_zw3_ampmedian90pct-w19_env-va_ERAInterim_500hPa_030day-runmean_native-mermax/Figure6.png
 figures/zg-composite_zw_sam-ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/Figure7.png
 figures/tas-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/Figure8.png
-figures/pr-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/pr-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native-sh.png
+figures/pr-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/Figure9.png
 figures/sic-composite_zw3_ampmedian90pct-w19_env-va-zg_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native/sic-composite_pwigt90pct_ERAInterim_500hPa_030day-runmean-anom-wrt-all_native-sh.png
